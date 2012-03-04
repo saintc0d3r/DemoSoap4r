@@ -15,7 +15,6 @@ class MyServer < SOAP::RPC::StandaloneServer
   def div(a, b)
      return a / b
   end
-
 end
 
 begin
@@ -27,3 +26,4 @@ begin
   rescue => err
   puts err.message
 end
+
